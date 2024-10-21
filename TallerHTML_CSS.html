@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coldplay Fan Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sección de encabezado -->
+    <div class="container header">
+        <h1>Coldplay</h1>
+        <p>Descubre la historia y música de Coldplay</p>
+        <p>Taller de Html, CSS Y Bootstrap</p>
+    </div>
+
+    <!-- Sección de Imagen -->
+    <div class="container section-container image-section">
+        <h2>Imagen Destacada</h2>
+        <img src="https://wallpapers.com/images/featured/coldplay-ldljmsho01pgdics.jpg" alt="Coldplay">
+    </div>
+
+    <!-- Sección de Texto sobre la banda -->
+    <div class="container section-container text-section">
+        <h2>Historia de Coldplay</h2>
+        <p>
+            Coldplay es una banda de rock alternativo británica formada en Londres en 1996. La banda está compuesta por
+            Chris Martin (voz principal, piano), Jonny Buckland (guitarra principal), Guy Berryman (bajo) y Will Champion
+            (batería, percusión). Coldplay alcanzó la fama mundial con el lanzamiento de su sencillo "Yellow" en el año 2000,
+            seguido por el exitoso álbum "Parachutes". Desde entonces, han lanzado una serie de álbumes aclamados por la crítica
+            que incluyen "A Rush of Blood to the Head", "X&Y", "Viva la Vida or Death and All His Friends" y muchos más. Su
+            estilo musical ha evolucionado a lo largo de los años, incorporando elementos de pop, electrónica y música experimental,
+            manteniendo siempre su esencia melódica y letras emotivas. Para más información sobre la banda, visita su
+            <a href="https://www.coldplay.com" target="_blank">sitio web oficial</a>.
+        </p>
+    </div>
+
+    <!-- Lista de las 10 canciones más famosas -->
+    <div class="container section-container album-list">
+        <h2>Las 10 Canciones Más Famosas de Coldplay</h2>
+        <ul class="list-group">
+            <li class="list-group-item">1. Viva la Vida</li>
+            <li class="list-group-item">2. Yellow</li>
+            <li class="list-group-item">3. Fix You</li>
+            <li class="list-group-item">4. The Scientist</li>
+            <li class="list-group-item">5. Clocks</li>
+            <li class="list-group-item">6. Paradise</li>
+            <li class="list-group-item">7. Adventure of a Lifetime</li>
+            <li class="list-group-item">8. Hymn for the Weekend</li>
+            <li class="list-group-item">9. A Sky Full of Stars</li>
+            <li class="list-group-item">10. Something Just Like This</li>
+        </ul>
+    </div>
+
+    <!-- Formulario de Suscripción -->
+    <div class="container section-container subscribe-form">
+        <h2>Suscríbete para recibir más información</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+            </div>
+            <div class="mb-3">
+                <label for="interest" class="form-label">¿Qué te interesa más de Coldplay?</label>
+                <textarea class="form-control" id="interest" rows="3" placeholder="Comparte tus pensamientos..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+        </form>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
